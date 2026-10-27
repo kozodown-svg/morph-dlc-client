@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "morph",
+  "version": "v1",
+  "name": "morph",
+  "description": "Morph DLC (decompiled + Yarn-remapped for MC 1.21.4).",
+  "authors": [
+    "NONE"
+  ],
+  "contact": {
+    "homepage": "",
+    "issues": ""
+  },
+  "license": "MIT",
+  "icon": "assets/wild/ico.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "ru.metaculture.protection.WildClient"
+    ]
+  },
+  "mixins": [
+    "wild_mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "\u003e\u003d0.18.4",
+    "fabric": "*",
+    "minecraft": "1.21.4"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "Telegram": "https://t.me/mexuma"
+      }
+    }
+  }
+}
