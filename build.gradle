@@ -31,12 +31,6 @@ dependencies {
 	implementation 'io.netty:netty-codec-socks:4.1.101.Final'
 	implementation 'io.netty:netty-handler-proxy:4.1.101.Final'
 
-	// Baritone is itself a Fabric mod (intermediary-named)
-	modImplementation 'baritone:baritone-api:1.21.8'
-	include 'baritone:baritone-api:1.21.8'
-	modImplementation 'dev.meteordev:nether-pathfinder:1.4.1'
-	include 'dev.meteordev:nether-pathfinder:1.4.1'
-
 	// Decompiled sources still carry lombok @Generated annotations (bodies are already expanded).
 	// compileOnly is enough to satisfy the imports.
 	compileOnly 'org.projectlombok:lombok:1.18.34'
